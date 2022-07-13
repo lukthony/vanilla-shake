@@ -141,40 +141,6 @@ ul{
 
 
 
-/* Responsiveness */
-@media (min-width: 768px) {
-    .nav{
-        margin-top: -3px;
-        max-height: none;
-        top: 0;
-        position: relative;
-        float: right;
-        width: fit-content;
-        background-color: transparent;
-    }
-    .menu li{
-        float: left;
-    }
-    .menu a{
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 20px;
-        padding-top: 1em;
-        font-size: 1.2rem;
-    }
-    .menu a:hover{
-        background-color: transparent;
-        background-color: var(--shadow);
-    }
-
-    .hamb{
-        display: none;
-    }
-}
-
-
-
-
 body, html {
     height: 100%;
 }
@@ -193,7 +159,7 @@ body, html {
   background-size: cover;
   position: relative;
 
-  margin-top: -11rem;
+  margin-top: -11em;
   z-index: 1;
   
 }
@@ -202,9 +168,9 @@ body, html {
 .hero-text {
   text-align: center;
   position: relative;
-  margin-top: -25em;
-  margin-left: 20%;
-  margin-right: 20%;
+  padding-top: 15em;
+  margin-left: 10%;
+  margin-right: 10%;
 
   /* top: 30%; */
   /* left: 50%; */
@@ -251,3 +217,87 @@ body, html {
     cursor: pointer;
 }
 
+.frontpage-content {
+    position: absolute;
+    padding-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    z-index: 3;
+}
+
+/* Responsiveness */
+@media (min-width: 768px) {
+    .nav{
+        margin-top: -3px;
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+        background-color: transparent;
+    }
+    .menu li{
+        float: left;
+    }
+    .menu a{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-top: 1em;
+        font-size: 1.2rem;
+    }
+    .menu a:hover{
+        background-color: transparent;
+        background-color: var(--shadow);
+    }
+
+    .hamb{
+        display: none;
+    }
+
+    .hero-box {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .frontpage-content {
+        padding-top: 5%;
+    }
+}
+
+/* Responsiveness */
+@media (min-width: 1024px) {
+    .nav{
+        margin-top: -3px;
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+        background-color: transparent;
+    }
+    .menu li{
+        float: left;
+    }
+    .menu a{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-top: 1em;
+        font-size: 1.2rem;
+    }
+    .menu a:hover{
+        background-color: transparent;
+        background-color: var(--shadow);
+    }
+
+    .hamb{
+        display: none;
+    }
+
+    .hero-box {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+}
