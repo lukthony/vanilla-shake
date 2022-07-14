@@ -50,6 +50,8 @@ body {
   width: 100%;
   z-index: 999;
   height: 7.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   transition: 0.5s ease-out;
 }
 
@@ -126,8 +128,8 @@ body {
   width: 100%;
   height: 0;
   position: absolute;
-  margin-top: 1em;
-  margin-left: -0.6em;
+  margin-top: 0.8em;
+  margin-left: -1.02em;
   background-color: var(--primary);
   overflow: hidden;
   transition: height 0.5s ease-out;
@@ -183,7 +185,7 @@ body {
 
 /* Toggle menu icon */
 .side-menu:checked ~ nav {
-  height: 12em;
+  height: 11.25em;
 }
 .side-menu:checked ~ .hamb .hamb-line {
   background: transparent;
@@ -221,7 +223,7 @@ body {
 .hero-text {
   text-align: center;
   position: relative;
-  padding-top: 17em;
+  padding-top: 17.5em;
   margin-left: 10%;
   margin-right: 10%;
 
