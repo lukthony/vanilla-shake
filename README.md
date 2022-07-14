@@ -34,6 +34,11 @@ Things to note, in no particular order:
 - [Line breaks in HTML using CSS](https://stackoverflow.com/questions/65849/how-to-insert-line-breaks-in-html-documents-using-css)
 - [Document.forms documentation (mdn web docs)](https://developer.mozilla.org/en-US/docs/Web/API/Document/forms)
 - [Contact form HTML CSS JS (stackhowto.com)](https://stackhowto.com/contact-form-with-html-css-and-javascript/)
+- [Display random image using javascript (peachpit.com)](https://www.peachpit.com/articles/article.aspx?p=1745123&seqNum=10)
+- [Create modal with HTML CSS JS (w3schools)](https://www.w3schools.com/w3css/w3css_modal.asp)
+- [Apply styles to multiple classes at once CSS (stackoverflow)](https://stackoverflow.com/questions/2099252/how-can-i-apply-styles-to-multiple-classes-at-once)
+- [AI Face Generator (thispersondoesnotexist.com)](https://thispersondoesnotexist.com/)
+- [Free-use high-quality images (unsplash.com)](https://unsplash.com)
 
 
 ## Screenshots:

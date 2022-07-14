@@ -1,6 +1,8 @@
 /* Theming */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); /* import font */
 
+/* ------------------------- GENERAL BROAD SETTINGS ------------------------- */
+
 :root {
   --background: #f9f9f9;
   --primary: #ffffff;
@@ -337,6 +339,26 @@ body {
   flex-direction: column;
 }
 
+.card-text {
+    margin-top: 0.5em;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+/* ------------------------------ CONTACT FORM ------------------------------ */
+
 .contact-form-container form {
     display: flex;
     flex-grow: 1;
@@ -388,24 +410,6 @@ body {
     border:rgba(0, 0, 0, 0.75) solid 1px;
     transition: all 0.3s ease 0s;
     border-width: 2px;
-}
-
-.card-text {
-  margin-top: 0.5em;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-/* Add some padding inside the card container */
-.container {
-  padding: 2px 16px;
 }
 
 /* ---------------------------- FRONTPAGE CONTENT --------------------------- */

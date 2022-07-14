@@ -1,81 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Milkshake</title>
-    <link rel="stylesheet" href="./styles.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  </head>
-  <body>
-    <!-- ------------------------ HEADER AND HERO IMAGE ------------------------ -->
-    <div class="header" include="./header.html"></div>
-    <br />
-    <br />
-    <div class="hero-image">
-      <div class="hero-text">
-        <div class="hero-box">
-          <h1>More than just dairy.</h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Milkshake</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+  <!-- ------------------------ HEADER AND HERO IMAGE ------------------------ -->
+  <div class="header" include="./header.html"></div>
+  <br />
+  <br />
+  <div class="hero-image">
+    <div class="hero-text">
+      <div class="hero-box">
+        <h1>More than just dairy.</h1>
+        <p>
+          Milkshake™ brand fruit-infused, thoroughly shaken, milk-based
+          concoctions.
+        </p>
+      </div>
+      <script>
+        function clickAlert() {
+          alert("Too bad. Suck it, dork.");
+        }
+      </script>
+      <button onclick="clickAlert()">Oh, I'd love some!</button>
+    </div>
+  </div>
+  <!-- ---------------------------- PAGE CONTENT ----------------------------- -->
+  <div class="frontpage-content">
+    <div class="cards">
+      <div class="card">
+        <a href="menu.html">
+          <img src="images/shakes.webp"
+            alt="Out of focus man with long hair holding three milkshakes topped with cereal up to the camera." />
+          <div class="card-text">
+            <h4><b>Look at our menu!</b></h4>
+            <p>Smooth, scrumptious, occasionally drug-infused.</p>
+        </a>
+      </div>
+    </div>
+    <div class="card">
+      <a href="contact.html">
+        <img src="images/soda.webp" alt="Soda shop with rows of candy on shelves and neon signs." />
+        <div class="card-text">
+          <h4><b>Get in touch!</b></h4>
+          <p>Or don't! We don't really care, we just want your money.</p>
+        </div>
+      </a>
+    </div>
+    <div class="card">
+      <a href="about.html">
+        <img src="images/image.jpg"
+          alt="Artificially generated image of a man with brown hair and stubble, looking into the camera with a calm, closed-mouth expression." />
+        <div class="card-text">
+          <h4><b>Find out who we are!</b></h4>
           <p>
-            Milkshake™ brand fruit-infused, thoroughly shaken, milk-based
-            concoctions.
+            We are human and have human things like flesh and blood and
+            morals.
           </p>
         </div>
-        <script>
-          function clickAlert() {
-            alert("Too bad. Suck it, dork.");
-          }
-        </script>
-        <button onclick="clickAlert()">Oh, I'd love some!</button>
-      </div>
+      </a>
     </div>
-    <!-- ---------------------------- PAGE CONTENT ----------------------------- -->
-    <div class="frontpage-content">
-      <div class="cards">
-        <div class="card">
-          <a href="menu.html">
-          <img
-            src="images/shakes.webp"
-            alt="Out of focus man with long hair holding three milkshakes topped with cereal up to the camera."
-          />
-          <div class="card-text">
-              <h4><b>Look at our menu!</b></h4>
-              <p>Smooth, scrumptious, occasionally drug-infused.</p>
-            </a>
-          </div>
-        </div>
-        <div class="card">
-          <a href="contact.html">
-            <img
-              src="images/soda.webp"
-              alt="Soda shop with rows of candy on shelves and neon signs."
-            />
-            <div class="card-text">
-              <h4><b>Get in touch!</b></h4>
-              <p>Or don't! We don't really care, we just want your money.</p>
-            </div>
-          </a>
-        </div>
-        <div class="card">
-          <a href="about.html">
-            <img
-              src="images/image.jpg"
-              alt="Artificially generated image of a man with brown hair and stubble, looking into the camera with a calm, closed-mouth expression."
-            />
-            <div class="card-text">
-              <h4><b>Find out who we are!</b></h4>
-              <p>
-                We are human and have human things like flesh and blood and
-                morals.
-              </p>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-    <!-- ------------------------------- FOOTER -------------------------------- -->
-    <div class="footer" include="./footer.html"></div>
-    <script src="app.js"></script>
-  </body>
+  </div>
+  </div>
+  <!-- ------------------------------- FOOTER -------------------------------- -->
+  <div class="footer" include="./footer.html"></div>
+  <script src="app.js"></script>
+</body>
+
 </html>
