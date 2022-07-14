@@ -33,7 +33,7 @@ Things to note, in no particular order:
 - [JQuery get started (w3schools.com)](https://www.w3schools.com/jquery/jquery_get_started.asp)
 
 
-#@ Screenshots:
+## Screenshots:
 
 *Desktop sized page*
 
