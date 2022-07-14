@@ -1,3 +1,4 @@
+
 /**
  * Function injects specified HTML file to specified HTML
  * node of the current file
@@ -49,3 +50,15 @@ function injectAll() {
 }
 
 injectAll();
+
+$(function() {
+  $(window).on("scroll", function() {
+      if($(window).scrollTop() > 10) {
+          $(".header").addClass("active");
+      } else {
+          //remove the background property so it comes transparent again (defined in your css)
+         $(".header").removeClass("active");
+      }
+  });
+});
+
