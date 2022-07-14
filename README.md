@@ -2,6 +2,7 @@
 
 This is a site built as-assigned for the UIC Technologys Solution SDD internship program, built in vanilla(haha, get it?) HTML, CSS, and Javascript.
 
+## Specifications
 The specifications for this project are as follows:
 - Create fully styled site with at least 3 pages (must have 1 home and 1 contact page), any topic/subject
 - Won’t be hosted remotely, will be used in future conceptual exercises
@@ -9,6 +10,7 @@ The specifications for this project are as follows:
 - Site design should be lowest priority.
 - Requirements: logo, navigation menu, hero image, footer, vanilla JS call to action button that alters something on the page, 2 mobile breakpoints, home page & contact page, basic “contact us” form with 2 field types other than “text,” separate design and content styles
 
+## Notes
 Things to note, in no particular order:
 - The site is designed mobile-first, meaning breakpoints are added for the screen expanding, rather than the screen shrinking.
 - The "Milkshake" and "MS" logos were custom-made in Adobe Illustrator
@@ -19,9 +21,9 @@ Things to note, in no particular order:
 - Javascript + Jquery is used to change the color of the header upon scrolling.
 - Note to self: add more here as-needed
 
+## References
 > Good programmers write good code, great programmers steal great code. - Abraham Lincoln
 
-References:
 - [Create a responsible mobile menu in CSS without Javascript (logrocket.com)](https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/)
 - [How TO - Hero Image (w3schools.com)](https://www.w3schools.com/howto/howto_css_hero_image.asp)
 - [Common BreakPoints for Responsive Design (Usmer Usman, stackoverflow.com)](https://stackoverflow.com/questions/62113126/common-breakpoints-for-reponsive-design)
@@ -31,7 +33,7 @@ References:
 - [JQuery get started (w3schools.com)](https://www.w3schools.com/jquery/jquery_get_started.asp)
 
 
-# Screenshots:
+#@ Screenshots:
 
 *Desktop sized page*
 
