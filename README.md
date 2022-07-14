@@ -31,6 +31,9 @@ Things to note, in no particular order:
 - [Modular HTML(Andrey Germanov, dev.to)](https://dev.to/andreygermanov/modular-html-19o6)
 - [Change header background when page scrolls (Ashish Tiwari, stackoverflow.com)](https://stackoverflow.com/questions/28266651/change-header-background-colour-when-page-scrolls)
 - [JQuery get started (w3schools.com)](https://www.w3schools.com/jquery/jquery_get_started.asp)
+- [Line breaks in HTML using CSS](https://stackoverflow.com/questions/65849/how-to-insert-line-breaks-in-html-documents-using-css)
+- [Document.forms documentation (mdn web docs)](https://developer.mozilla.org/en-US/docs/Web/API/Document/forms)
+- [Contact form HTML CSS JS (stackhowto.com)](https://stackhowto.com/contact-form-with-html-css-and-javascript/)
 
 
 ## Screenshots:
