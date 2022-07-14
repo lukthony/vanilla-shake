@@ -32,13 +32,15 @@ ul {
   list-style: none;
 }
 
+ /* this makes the footer reach the bottom of the page  */
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-/* Header */
+/* --------------------------------- HEADER --------------------------------- */
+
 .header {
   /* background-color: var(--primary); */
   background-color: transparent;
@@ -51,11 +53,22 @@ body {
   transition: 0.5s ease-out;
 }
 
+ /* this is applied to the header after scrolling */
 .active {
   background-color: var(--primary);
   height: 7.5em;
   transition: 0.5s ease-out;
 }
+
+/* containing div of the header */
+.container {
+ padding-top: 0em;
+ padding-bottom: 0.5em;
+ padding-left: 3em;
+ padding-right: 2em;
+}
+
+/* --------------------------------- FOOTER --------------------------------- */
 
 .footer {
   flex: 1;
@@ -74,19 +87,19 @@ body {
   display: block;
 }
 
+ /* the right-aligned portion of the footer, specifically */
 .right-align {
   padding-top: 2em;
   text-align: right;
 }
 
-.container {
-  padding-top: em;
-  padding-bottom: 0.5em;
-  padding-left: 3em;
-  padding-right: 2em;
-}
-/* Logo */
 
+
+/* ---------------------------------- LOGO ---------------------------------- */
+
+ /* this is the text that makes the logo clickable.
+    modifies so it fits over the whole area intended to be clickable
+ */
 .logo {
   color: transparent;
   display: inline-block;
@@ -97,6 +110,7 @@ body {
   text-overflow: ellipsis;
 }
 
+ /* the actual logo image */
 .ms-logo {
   background: url(images/ms.png) no-repeat;
   background-size: contain;
@@ -106,15 +120,17 @@ body {
   height: 3em;
 }
 
-/* Nav menu */
+/* -------------------------------- NAV MENU -------------------------------- */
+
 .nav {
   width: 100%;
-  height: 100%;
+  height: 0;
   position: absolute;
-  margin-top: 0.5em;
-  margin-left: -2em;
+  margin-top: 1em;
+  margin-left: -0.6em;
   background-color: var(--primary);
   overflow: hidden;
+  transition: height 0.5s ease-out;
 }
 .menu a {
   display: block;
@@ -125,14 +141,9 @@ body {
 .menu a:hover {
   background-color: var(--shadow);
 }
-.nav {
-  position: absolute;
-  height: 0;
-  margin-top: 1em;
-  transition: height 0.5s ease-out;
-}
 
-/* Menu Icon */
+/* ----------------------------- HAMBURGER ICON ----------------------------- */
+
 .hamb {
   cursor: pointer;
   float: right;
@@ -186,7 +197,8 @@ body {
   top: 0;
 }
 
-/* The hero image */
+/* ------------------------------- HERO IMAGE ------------------------------- */
+
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
@@ -225,6 +237,7 @@ body {
   margin-bottom: 0.5em;
 }
 
+/* the background box containing text */
 .hero-box {
   background-color: rgba(255, 255, 255, 0.75);
   padding: 1.5em;
@@ -257,14 +270,8 @@ body {
   cursor: pointer;
 }
 
-.frontpage-content {
-  position: relative;
-  padding-top: 10%;
-  margin-left: 10%;
-  margin-right: 10%;
-  z-index: 0;
-  padding-bottom: 2.5rem;
-}
+
+/* ---------------------------------- CARDS --------------------------------- */
 
 .cards {
   align-items: center;
@@ -310,7 +317,19 @@ body {
   padding: 2px 16px;
 }
 
-/* Responsiveness */
+/* ---------------------------- FRONTPAGE CONTENT --------------------------- */
+
+.frontpage-content {
+    position: relative;
+    padding-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    z-index: 0;
+    padding-bottom: 2.5rem;
+  }
+
+/* ----------------------------- RESPONSIVENESS ----------------------------- */
+
 /* 
     The style is built MOBILE FIRST, meaning that these breakpoints 
     account for the screen getting BIGGER, rather than the screen getting SMALLER. 
@@ -391,6 +410,7 @@ body {
     margin-top: 0em;
   }
 }
+
 
 /* Responsiveness */
 @media (min-width: 1024px) {

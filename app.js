@@ -1,4 +1,6 @@
 
+/* ----------------------------- HTML INJECTION ----------------------------- */
+
 /**
  * Function injects specified HTML file to specified HTML
  * node of the current file
@@ -51,6 +53,8 @@ function injectAll() {
 
 injectAll();
 
+/* ------------------- MODIFY HEADER BACKGROUND ON SCROLL ------------------- */
+
 $(function() {
   $(window).on("scroll", function() {
       if($(window).scrollTop() > 10) {
@@ -62,3 +66,5 @@ $(function() {
   });
 });
 
+/* ----------- CALL TO ACTION THAT MODIFIES SOMETHING ON THE PAGE ----------- */
+// TODO: implement this
