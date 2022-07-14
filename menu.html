@@ -12,8 +12,33 @@
     <!-- TODO: update this -->
     <div class="header" include="./header.html"></div>
     <div class="frontpage-content">
-        <p>MENU incididunt est dolor qui laborum. In cupidatat cupidatat do voluptate voluptate ex reprehenderit eu ipsum voluptate nisi. Consectetur cillum cupidatat pariatur aute pariatur consectetur amet in. Irure duis velit aliquip anim occaecat et nulla eiusmod. Fugiat dolor deserunt est laborum mollit velit elit irure labore amet aliquip anim minim qui. Deserunt minim reprehenderit nisi aliquip aliqua id sunt magna velit eu nisi id nulla eu qui. Mollit non excepteur et. Do laborum ad qui nostrud aliquip qui. Aliqua ex laboris ipsum exercitation ex. Consequat ea nisi dolor Lorem laboris veniam Lorem elit duis dolore officia exercitation consequat eiusmod.</p>
-      </div>
+        <div class="cards">
+            <div class="card-nohover"><img src="images/nochoice.png" alt=""></div>
+            <div class="card-nohover"><div class="card-text"><p>The Milkshake™ Brand Menu-inator is a revolutionary innovation in consumption-choosing technology.</p> <br> <p>Instead of wasting your time looking at a menu, simply hit the Menu-inator button and wait for the machine to start shoving beverage down your throat!</p></div></div>
+        </div>
+    </div>
+    <div class="frontpage-content">
+        <div class="btn-container">
+            <button class="btn" id="btn" onclick="menuinator()">Gimme gimme gimme!</button>
+        </div>
+    </div>
+
+<!-- -------------------------------- MODAL -------------------------------- -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+
+        <div class="menuinator">
+            <div class="image-wrap">
+                <img src="" alt="" id="winPic">
+            </div>
+            <p id="winDesc"> DESCRIPTION</p>
+        </div>
+
+  </div>
+</div>
+
     <div class="footer" include="./footer.html"></div>
     <script src="app.js"></script>
 </body>

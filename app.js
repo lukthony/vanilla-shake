@@ -130,3 +130,41 @@ function validateForm() {
 
   return true;
 }
+
+/* ---------------------------------- MODAL --------------------------------- */
+
+var myPix = new Array("images/shakes/choco.jpg","images/shakes/drippy-oreo.jpg","images/shakes/explosion-berries.jpg","images/shakes/grass.jpg","images/shakes/light-nutty.jpg","images/shakes/pickle-jar.jpg","images/shakes/pink-sprinkle.jpg","images/shakes/settling.jpg","images/shakes/spilling.jpg","images/shakes/tangy.jpg");
+var myDesc = new Array("We added a heart-attack-causing chemical to this one so if the three cookies and half liter of chocolate don't get you, this terrifying toxin will!","This one's just a normal shake.","We put plastic explosive in this one! Imagine pop rocks, but, like, more visceral.","Matcha? Seriously? What kind of freak wants to drink grass? Are you a cow? A horse?","This one's made with enough THC to immediately overdose you in a single sip! You'll feel absolutely wild in your last moments, though.","This is just a normal shake, except we poured it into an unwashed pickle jar.","The straw is real bamboo, and the sprinkles are honest-to-goodness crystal methamphetamine. Enjoy our stay-awake shake!","This one tastes really good but it's like, chock-full of laxatives. You'll shit your brains out.","Your hands might get a bit sticky.","There isn't even any milk in this one. Whoops.");
+
+function choosePic() {
+  var randomNum = Math.floor(Math.random() * myPix.length);
+  document.getElementById("winPic").src = myPix[randomNum];
+  document.getElementById("winDesc").innerHTML = myDesc[randomNum];
+}
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("btn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+  choosePic()
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
