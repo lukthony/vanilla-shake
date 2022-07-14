@@ -458,7 +458,7 @@ body {
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 1001; /* Sit on top */
     padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
@@ -517,6 +517,7 @@ body {
     /*for many reasons - but mainly to get rid of the little margin-bottom that happens by default */
     width: 100%;
     height: auto;
+    border-radius: 1em;
   }
 
 /* ----------------------------- RESPONSIVENESS ----------------------------- */
@@ -651,6 +652,6 @@ body {
   }
 
   .modal-content {
-    width: 25%;
+    width: 40%;
   }
 }
