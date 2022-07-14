@@ -616,6 +616,15 @@ body {
   .modal-content {
     width: 60%;
   }
+
+  .card-accompany-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .card-accompany {
+    margin-left: 2em;
+  }
 }
 
 
