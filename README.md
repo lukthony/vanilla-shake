@@ -1,6 +1,6 @@
 # vanillaShake
 
-This is a site built as-assigned for the UIC Technology Solution SDD internship program, built in vanilla(haha, get it?) HTML, CSS, and Javascript.
+This is a site built as-assigned for the UIC Technologys Solution SDD internship program, built in vanilla(haha, get it?) HTML, CSS, and Javascript.
 
 The specifications for this project are as follows:
 - Create fully styled site with at least 3 pages (must have 1 home and 1 contact page), any topic/subject
@@ -30,7 +30,8 @@ References:
 - [Change header background when page scrolls (Ashish Tiwari, stackoverflow.com)](https://stackoverflow.com/questions/28266651/change-header-background-colour-when-page-scrolls)
 - [JQuery get started (w3schools.com)](https://www.w3schools.com/jquery/jquery_get_started.asp)
 
-Screenshots:
+
+# Screenshots:
 
 *Desktop sized page*
 
