@@ -20,6 +20,7 @@ Things to note, in no particular order:
 - Note to self: add more here as-needed
 
 > Good programmers write good code, great programmers steal great code. - Abraham Lincoln
+
 References:
 - [Create a responsible mobile menu in CSS without Javascript (logrocket.com)](https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/)
 - [How TO - Hero Image (w3schools.com)](https://www.w3schools.com/howto/howto_css_hero_image.asp)
