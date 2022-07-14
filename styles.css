@@ -280,6 +280,13 @@ body {
   justify-content: space-around;
 }
 
+.cards-contact {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ }
+
 .cards img {
   width: 100%;
   border-radius: 0.5em;
@@ -297,6 +304,74 @@ body {
   margin-right: 0.5em;
   display: flex;
   flex-direction: column;
+}
+
+.card-nohover {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 1em;
+    margin-top: 2em;
+    border-radius: 1em;
+    width: 75%;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    display: flex;
+    flex-direction: column;
+    height: 45em
+  }
+
+.contact-form-container form {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact-form-container {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1.5em;
+}
+
+.contact-form-container input, .contact-form-container textarea{
+    margin-top: .5em;
+    margin-bottom: .5em;
+    padding: .5em;
+    border-radius: .5em;    
+    border: 1px solid var(--secondary);
+    background-color: var(--primary);
+    width: 100%
+}
+
+.form-btn input {
+    background-color: var(--secondary);
+    color: var(--primary);
+    border: none;
+    border-radius: .5em;
+    padding: 1em;
+    cursor: pointer;
+    width: 100%
+}
+
+.lb {
+    display:block;
+    clear:both;
+ }
+ 
+.error {
+    background-color: red;
+
+    text-align: center;
+    color: white;
+    padding: .25em;
+    font-weight: 800;
+    height: 0;
+    visibility: hidden;
+    border:rgba(0, 0, 0, 0.75) solid 1px;
+    transition: all 0.3s ease 0s;
+    border-width: 2px;
 }
 
 .card-text {
@@ -406,6 +481,16 @@ body {
     justify-content: space-around;
   }
 
+  .cards-contact {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .card-nohover {
+    height: 38em;
+  }
+
+
   .card {
     margin-top: 0em;
   }
@@ -421,6 +506,24 @@ body {
   .hero-box {
     margin-left: 20%;
     margin-right: 20%;
+  }
+
+  .cards-contact {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+/* 
+  .contact-form-container p  {
+    line-height: 0.5em;
+  }
+
+  .contact-form-container h1  {
+    font-size: 1.5em;
+  } */
+
+  .card-nohover {
+    height: 38em;
+
   }
 
   .card {
