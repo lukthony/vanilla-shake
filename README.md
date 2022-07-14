@@ -29,9 +29,12 @@ References:
 - [Change header background when page scrolls (Ashish Tiwari, stackoverflow.com)](https://stackoverflow.com/questions/28266651/change-header-background-colour-when-page-scrolls)
 - [JQuery get started (w3schools.com)](https://www.w3schools.com/jquery/jquery_get_started.asp)
 
-Screenshots;
+Screenshots:
+
 *Desktop sized page*
+
 <img width="662" alt="Screen Shot 2022-07-14 at 12 14 08 PM" src="https://user-images.githubusercontent.com/65358837/179043354-79127cdb-190c-4e61-bbeb-dd258ef546c4.png">
 
 *Mobile sized paged*
+
 <img width="369" alt="Screen Shot 2022-07-14 at 12 14 39 PM" src="https://user-images.githubusercontent.com/65358837/179043454-70a641aa-7f76-4e54-9ba6-15b8633e0c62.png">
