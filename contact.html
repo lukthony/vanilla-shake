@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +9,45 @@
     <link rel="stylesheet" href="./styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
+
 <body>
     <!-- TODO: update this -->
     <div class="header" include="./header.html"></div>
+    <div class="cards-contact">
+        <div class="card-nohover">
+            <div class="contact-form-container">
+                <form name="myForm" id="contact-form" onsubmit="clickAlert()" method="post">
+                <form name="myForm" id="contact-form" onsubmit="return validateForm()" method="post">
+
+                    <h1>Contact Us!</h1>
+                    <br>
+                    <span class="lb"> <p>Name:</p><input type="text" name="name"></input></span>
+                    <span class="lb"> <p>Email:</p><input type="text" name="email"></input></span>
+                    <span class="lb"><p>Subject:</p><input type="text" name="subj"></input></span>
+                    <span class="lb"><p>Message:</p><textarea name="msg" id="" cols="30" rows="7"></textarea></span>
+                    <br>
+                    <script>
+                        function clickAlert() {
+                            alert("Form submitted successfully! \n\n(Not really, but thanks for caring enough to try)");
+                        }
+                    </script>
+                    <div class="form-btn"> <input type="Submit" value="Submit"></input> </div>
+                    <span class="error" id="errormsg">text</span>
+                </form>
+            </div>
+        </div>
+    </div>
     <div class="frontpage-content">
-        <p>CONTACT incididunt est dolor qui laborum. In cupidatat cupidatat do voluptate voluptate ex reprehenderit eu ipsum voluptate nisi. Consectetur cillum cupidatat pariatur aute pariatur consectetur amet in. Irure duis velit aliquip anim occaecat et nulla eiusmod. Fugiat dolor deserunt est laborum mollit velit elit irure labore amet aliquip anim minim qui. Deserunt minim reprehenderit nisi aliquip aliqua id sunt magna velit eu nisi id nulla eu qui. Mollit non excepteur et. Do laborum ad qui nostrud aliquip qui. Aliqua ex laboris ipsum exercitation ex. Consequat ea nisi dolor Lorem laboris veniam Lorem elit duis dolore officia exercitation consequat eiusmod.</p>
-      </div>
+        <p>CONTACT incididunt est dolor qui laborum. In cupidatat cupidatat do voluptate voluptate ex reprehenderit eu
+            ipsum voluptate nisi. Consectetur cillum cupidatat pariatur aute pariatur consectetur amet in. Irure duis
+            velit aliquip anim occaecat et nulla eiusmod. Fugiat dolor deserunt est laborum mollit velit elit irure
+            labore amet aliquip anim minim qui. Deserunt minim reprehenderit nisi aliquip aliqua id sunt magna velit eu
+            nisi id nulla eu qui. Mollit non excepteur et. Do laborum ad qui nostrud aliquip qui. Aliqua ex laboris
+            ipsum exercitation ex. Consequat ea nisi dolor Lorem laboris veniam Lorem elit duis dolore officia
+            exercitation consequat eiusmod.</p>
+    </div>
     <div class="footer" include="./footer.html"></div>
     <script src="app.js"></script>
 </body>
+
 </html>
