@@ -1,4 +1,3 @@
-
 /* ----------------------------- HTML INJECTION ----------------------------- */
 
 /**
@@ -55,16 +54,79 @@ injectAll();
 
 /* ------------------- MODIFY HEADER BACKGROUND ON SCROLL ------------------- */
 
-$(function() {
-  $(window).on("scroll", function() {
-      if($(window).scrollTop() > 10) {
-          $(".header").addClass("active");
-      } else {
-          //remove the background property so it comes transparent again (defined in your css)
-         $(".header").removeClass("active");
-      }
+$(function () {
+  $(window).on("scroll", function () {
+    if ($(window).scrollTop() > 10) {
+      $(".header").addClass("active");
+    } else {
+      //remove the background property so it comes transparent again (defined in your css)
+      $(".header").removeClass("active");
+    }
   });
 });
 
 /* ----------- CALL TO ACTION THAT MODIFIES SOMETHING ON THE PAGE ----------- */
 // TODO: implement this
+
+function hideError() {
+  err = document.getElementById("errormsg")
+  err.innerHTML = "";
+  err.style.visibility = "hidden";
+  err.style.height = "0";
+}
+
+function showError(text, elem) {
+  err = document.getElementById("errormsg")
+  err.innerHTML = text;
+  err.style.visibility = "visible";
+  err.style.height = "auto";
+  elem.focus();
+}
+
+function validateForm() {
+  var name = document.forms[0]["name"];
+  var email = document.forms["myForm"]["email"];
+  var subject = document.forms["myForm"]["subj"];
+  var message = document.forms["myForm"]["msg"];
+
+  if (name.value == "") {
+    showError("Please enter a valid name", name);
+    return false;
+  } else {
+    hideError();
+  }
+
+  if (email.value == "") {
+    showError("Please enter a valid email", email);
+    return false;
+  } else {
+    hideError();
+  }
+
+  if (email.value.indexOf("@", 0) < 0) {
+    showError("Please enter a valid email", email);
+    email.focus();
+    return false;
+  }
+
+  if (email.value.indexOf(".", 0) < 0) {
+    showError("Please enter a valid email", email);
+    return false;
+  }
+
+  if (message.value == "") {
+    showError("Please enter a valid message", message);
+    return false;
+  } else {
+    hideError();
+  }
+
+  if (subject.value == "") {
+    showError("Please enter a valid subject", subject);
+    return false;
+  } else {
+    hideError();
+  }
+
+  return true;
+}
