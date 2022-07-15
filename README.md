@@ -2,6 +2,8 @@
 
 This is a site built as-assigned for the UIC Technologys Solution SDD internship program, built in vanilla(haha, get it?) HTML, CSS, and Javascript.
 
+https://user-images.githubusercontent.com/65358837/179122583-b2f375be-d01b-40ac-8f9e-0bf469ca59d1.mp4
+
 ## Specifications
 The specifications for this project are as follows:
 - Create fully styled site with at least 3 pages (must have 1 home and 1 contact page), any topic/subject
