@@ -1,4 +1,4 @@
-# vanillaShake
+# Vanilla Shake
 
 This is a site built as-assigned for the UIC Technologys Solution SDD internship program, built in vanilla(haha, get it?) HTML, CSS, and Javascript.
 
